@@ -4,9 +4,9 @@
 HACKER_GROUP = 'Apos'   
 IMAGES_DIR = './Images'   
 JSON_DIR = './json' 
-SLACK_TOKEN = 'xoxb-1595657012006-7231095552162-JF5xT2Wi3eWLiKZ2Fu7yBh8j'   #From OAuth & Permissions
-CHANNEL_ID = 'C01JE842AKS'  
-APOLLO_KEY = '38SCQiDOokUgmIKqDI-XLA'
+SLACK_TOKEN = ''   #From OAuth & Permissions
+CHANNEL_ID = ''  
+APOLLO_KEY = ''
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -192,3 +192,4 @@ driver.quit()
 
 with open(json_file, 'w') as fp:
     json.dump(json_data, fp, indent=4)
+
